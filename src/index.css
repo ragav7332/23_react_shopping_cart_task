@@ -11,3 +11,101 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  display: flex !important;
+  
+}
+
+.css-1t29gy6-MuiToolbar-root {
+  display: flex !important;
+  gap: 2rem !important;
+  justify-content: space-between;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 5px 15px !important;
+  border: none !important;
+}
+
+.css-hyum1k-MuiToolbar-root{
+  background-color: #ff9c21;
+}
+.css-9npbnl-MuiFormLabel-root-MuiInputLabel-root {
+  font-weight: 700 !important;
+  color: white !important;
+}
+
+/* for cart  */
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  font-size: 1.21rem !important;
+  gap: 0.5rem;
+}
+
+#navbar {
+  display: flex !important;
+  gap: 1rem;
+}
+
+#demo-simple-select-label {
+  font-size: 1.21rem;
+  font-weight: 550 !important;
+}
+
+#intro-div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(31, 31, 31);
+  color: white;
+  height: 15rem;
+  margin: 0 !important;
+}
+
+#intro-title {
+  margin-top: 0rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#intro-span {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+#cardbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 5rem 11rem;
+}
+
+#img {
+  padding: 3rem;
+  color: rgb(223, 221, 221);
+  background-color: rgb(158, 158, 158);
+}
+
+#sale {
+  font-size: 0.8rem;
+  position: relative;
+  top: -2.5rem;
+  left: 5.5rem;
+  background-color: black;
+  width: 3.5rem;
+  border-radius: 0.5rem;
+  padding: 0.1rem;
+}
+
+#cardaction {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  #cardbox {
+    margin: 5rem 5rem;
+  }
+}
